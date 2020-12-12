@@ -30,6 +30,11 @@ th{
 	width: 500px;
 }
 
+
+#Blue:hover{
+	text-shadow: 2px 2px red;
+}
+
 #Green{
 
 	height: 500px;
@@ -51,24 +56,24 @@ th{
 	width: 500px;
 }
 
-#or {
+.or {
 
 	color: black;
 }
-#gr{
+.gr{
 	color: black;
 }
-#bl{
+.bl{
 	color: black;
 }
 
-#yl{
+.yl{
 	color: black;
 }
-#rd{
+.rd{
 	color: black;
 }
-#pur{
+.pur{
 	color: black;
 }
 .orange{
@@ -79,11 +84,293 @@ th{
 .yellow{background-color: yellow;}
 .red{background-color: red;}
 .purple{background-color: purple;}
-img:hover{
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); }
-  img{
-  	transition: transform .2s;
-  	box-shadow: 0 0 3px #FF0000;
+#Orange:hover{
+width: 800px;
+ height:800px;
+  
+  
+ 
   }
+
+
+#Orange{
+	transition: width 2s, height 2s;
+}
+
+
+  .or:hover{
+ color: orange;
+ animation-duration: 3s;
+
+  }
+
+
+   .gr:hover{
+ color: green;
+
+  }
+
+
+
+   .bl:hover{
+ color: blue;
+
+  }
+
+
+
+   .yl:hover{
+ color: yellow;
+
+  }
+
+
+   .rd:hover{
+ color: red;
+
+  }
+
+
+
+
+   .pur:hover{
+ color: purple;
+
+  }
+
+
+
+
+  .orimg{
+  	background-image: linear-gradient(90deg, #ff910a, #be2f17, #ff910a, #be2f17);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+.grimg{
+background-image: linear-gradient(90deg, #3cff0b, #06a188, #3cff0b, #06a188);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+
+
+
+.blimg{
+background-image: linear-gradient(90deg, #2d0bff, #b805ff, #2d0bff, #b805ff);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+.ylimg{
+background-image: linear-gradient(90deg, #fff308, #f5f5f5, #fff308, #f5f5f5);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+
+
+.redimg{
+background-image: linear-gradient(90deg, #f00000, #c9009a, #f00000, #c9009a);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+
+.purimg{
+background-image: linear-gradient(90deg, #510659, #1e0358, #510659, #1e0358);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+
+#Green:hover{
+width: 800px;
+ height:800px;
+  
+  
+ 
+  }
+
+
+#Green{
+	transition: width 2s, height 2s;
+}
+
+
+
+#Blue:hover{
+width: 800px;
+ height:800px;
+  
+  
+ 
+  }
+
+
+#Blue{
+	transition: width 2s, height 2s;
+}
+
+
+
+#Yellow:hover{
+width: 800px;
+ height:800px;
+  
+  
+ 
+  }
+
+
+#Yellow{
+	transition: width 2s, height 2s;
+}
+
+
+#Red:hover{
+width: 800px;
+ height:800px;
+  
+  
+ 
+  }
+
+
+#Red{
+	transition: width 2s, height 2s;
+}
+
+
+
+
+
+
+
+.linkk:visited{
+	color:red;
+}
+
+
+.linkk{
+	font-size: 100px;
+	color: white;
+}
+
+
+
+
+#Purple:hover{
+width: 800px;
+ height:800px;
+  
+  
+ 
+  }
+
+
+#Purple{
+	transition: width 2s, height 2s;
+}
+
+
+
+
+
+
+
+
+  
+  
+
+

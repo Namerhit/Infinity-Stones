@@ -1,0 +1,89 @@
+
+
+
+.ser{
+	width: 1000px;
+}
+
+.button{
+	height: 30px;
+	width: 100px;
+	color: white;
+	cursor: pointer;
+	animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 9000000;
+   transition: width 2s, height 4s;
+   border-radius: 15px;
+     background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+
+  
+  
+  animation: background 2s infinite alternate;
+}
+
+@keyframes background {
+  100% {
+    background-position: 0 200px;
+  }
+}
+.button:hover{
+
+	width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+.ser:hover{
+   color: red;
+}
+
+
+
+.ser:focus{
+       color:green;
+}
+
+
+
+
+.button:active{
+
+
+}
+
+
+form{
+	margin: center;
+     
+
+
+
+}
+
+
+body{
+		background-image: linear-gradient(90deg, #da3287, #ffde5e, #da3287, #ffde5e);
+             background-size: 300% 100%;
+
+	 animation: ang 2s infinite linear;
+	
+}
+
+
+
+@keyframes ang{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+
+
